@@ -1,0 +1,33 @@
+/* CSS Document */
+
+h1 {color: chocolate; font-family: sans-serif;}	
+h2 {color: chocolate; font-family: sans-serif;}
+h3 {color: chocolate; font-family: sans-serif;}
+h4 {color: chocolate; font-family: sans-serif;}
+h5 {color: chocolate; font-family: sans-serif;}
+
+p {text-align: justify; font-style: oblique; font-family: monospace;}
+
+a {color: crimson; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+/* #start {color: blue; font-style: bold; font-family: cursive;} */
+.beginer {
+    font-weight: 200; 
+    font-family: sans-serif; 
+    text-align: justify;
+    color: darkorange;
+}
+
+.shape {
+    text-align: justify;
+    border: solid black 3px;
+    border-radius: 10px;
+}    
+
+.motion {
+    color: black;
+}
+
+.id {
+    color:brown
+}

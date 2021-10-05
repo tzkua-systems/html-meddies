@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+		<head>
+			<title>THIRD PAGE!!!</title>
+			<link href="../Tests/styles.css" rel="stylesheet"/>
+		</head>
+	<body>
+	<a href="index1.html"> Goto HOME PAGE! </a > <br />
+	<a href="index2.html"> Goto SECOND PAGE! </a > <br />
+	
+		<article id="TYPES OF MAIL SERVERS">
+			<h2>TYPES OF MAIL SERVERS</h2>
+			<!-- <p><b>This is an Article</b><br/> <a href="index3.html">Read more</a></p> -->
+			<nav>
+				<ol>
+					<li><a href="#Mail Servers"> Mail Servers </a> <br /></li>
+					<li><a href="#POP3 Servers"> POP3 Servers </a> <br /></li>
+					<li><a href="#IMAP Servers"> IMAP Servers </a> <br /></li>
+					<li><a href="#SMTP Servers"> SMTP Servers </a> <br /></li>
+					<li><a href="#HTTP Servers"> HTTP Servers </a> <br /></li>
+				</ol>
+			</nav>
+
+			<section class="shape">
+				<p class="beginer"> <a name="Mail Servers"> </a> <strong> Mail Servers </strong> </p>
+				<!-- <p> <strong> Mail Servers </strong> </p> -->
+				<p>A mail server is a computer that sends, receives and stores e-mail for users. 
+				Almost every Internet Service Provider (ISP) includes at least one mailbox on their mail server as part of their basic service. 
+				Each mailbox on the server has a unique name which is usually, but not always, the logon name you use to connect to your ISP. 
+				Each mailbox also is associated with a unique e-mail address which usually consists of your logon name combined with the ISP's domain name in the form logon-name@example.com. 
+				To access mail on a server, you use a computer program called a mail client, or mail reader, such as Outlook Express.</p>
+				<P>When a client connects to a server, both computers must be speaking the same language, called a protocol. 
+				In the case of mail servers there are four protocols that can be used. The most widely used is POP3, for Post Office Protocol version 3.
+				It is almost always used in conjunction with SMTP, or Simple Mail Transfer Protocol. 
+				POP3 is used to retrieve mail from the server (incoming) while SMTP is used to send mail through the server (outgoing).
+				IMAP, or Internet Message Access Protocol, is a newer protocol that is not used as widely as POP3. 
+				HTTP, or HyperText Transfer Protocol, is actually the protocol used by Web servers, but it can also be used to access mail in special cases such as Hotmail. 
+				Outlook Express supports all four of these protocols. While all four protocols perform mail functions, there are important differences in how they function on the server.</p>
+			</section>
+
+			<section>	
+				<p class="beginer"> <a name="POP3 Servers"> </a> <strong> POP3 Servers </strong> </p>
+				<!-- <p> <strong> POP3 Servers </strong> </p> -->
+				<p><dfn>POP3</dfn> servers by default store e-mail on the server only until you download them into your mail client. 
+				As soon as a message is downloaded, the client tells the server the message has been received and the server copy should be deleted. 
+				Outlook Express follows this default behavior, but also gives you the option to "leave a copy of messages on server".</p>
+				<p>Tip:  If you wish to keep a copy of messages on your POP3 mail server, you can do so by accessing the account's Advanced Properties page: <br />
+				1.	On the Outlook Express Tools menu, click Accounts. <br />
+				2.	Click the Mail tab, and then double-click your e-mail account. <br />
+				3.	Click the Advanced tab. <br />
+				4.	Check the box labeled "Leave a copy of messages on server." Doing this activates two clean-up options: <br />
+				If desired, check the box to <cite>"Remove from server after 5 days."</cite> You may change this to any number between 1 and 100. <br />
+				If desired, check the box to <cite>"Remove from server when deleted from ‘Deleted Items.'"</cite> <br />
+				Be careful using this option! Most ISPs limit the size of your POP3 mailbox. 
+				Saving messages on the server can cause your mailbox to become full very quickly, and so you might not receive important messages until you delete the server copies. <br /></p>
+			</section>
+
+			<section>
+				<p class="beginer"> <a name="IMAP Servers"> </a><strong> IMAP Servers </strong> </p>
+				<!-- <p> <strong> IMAP Servers </strong> </p> -->
+				<p><dfn>IMAP</dfn> servers on the other hand store your mail permanently on the server. 
+				Outlook Express can also store copies on your own computer, so that your local copy is an exact mirror of whatever is on the server. 
+				When you delete an e-mail in an IMAP account, you are deleting both the local copy and the server copy. 
+				To prevent accidental deletions, IMAP servers do not totally delete a message until you issue a Purge command (Purge Deleted Items on the Edit menu, or the Purge toolbar button). 
+				IMAP also has a command to Undelete a message (also found on the Edit menu). 
+				The main advantage of IMAP over POP3 is that, since all messages are on the server, you can access all your mail from any computer with an Internet connection. 
+				You can also create subfolders on the server (and in your local Outlook Express account) to better organize your mail. 
+				The disadvantage is that most ISPs limit the size of your mailbox, so an IMAP mailbox will fill up much more quickly than a POP3 mailbox.</p>
+			</section>
+
+			<section>
+				<p class="beginer"> <a name="SMTP Servers"> </a> <strong> SMTP Servers </strong> </p>
+				<!-- <p> <strong> SMTP Servers </strong> </p> -->
+				<p><dfn>SMTP</dfn> servers are the real workhorses of e-mail as they are the computers sending all those millions of messages every day.
+				But as all e-mail users know, many of those messages are infected with viral attachments, or are spam (unsolicited commercial e-mail), or are scams (please let me use your bank account to get millions of dollars out of Nigeria). 
+				To prevent spammers and malicious users from sending mail via their server, most ISPs have placed restrictions on who is allowed to access their SMTP server. 
+				For most people this is not an issue, since most people use only one ISP and one e-mail account hosted by that ISP. 
+				If you sometimes use a second ISP though, or if you use an e-mail address other than the one provided by your ISP, the SMTP server may not recognize you as an authorized user and so will refuse to send your messages. 
+				Instead the server will issue an error message which Outlook Express will display. 
+				The exact text varies but will usually include the error code "550 - Relaying not allowed."</p>
+				<p>ISPs use several methods for detecting authorized users. Some configure their SMTP servers to accept mail only from computers that are connected to the Internet using the ISP's modem bank, cable, or DSL line. 
+				Some also use the sender's e-mail address and reject all mail sent from addresses not hosted by the ISP itself. 
+				Some allow you to authorize with the SMTP server using the same logon name and password used to access the POP3 server. 
+				Some use a method known as "POP before SMTP" by which you must first access the POP3 server using your logon name and password, which then gives you permission to access the SMTP server for some minutes. 
+				If you encounter relaying problems, you will have to ask your ISP's helpdesk which method they use, and get their help in configuring your Outlook Express accounts.</p>
+			</section>
+
+			<section>
+				<p class="beginer"> <a name="HTTP Servers"> </a> <strong> HTTP Servers </strong> </p>
+				<!-- <p> <strong> HTTP Servers </strong> </p> -->
+				<p>The most common e-mail provider that uses HTTP in Outlook Express is Hotmail. For most purposes HTTP/Hotmail works very much like IMAP, in that your mail is stored on the mail server and Outlook Express creates a mirror copy on your computer. 
+				The most important difference is that Hotmail does not use the Undelete and Purge functions. Deleting a message on Hotmail moves the message to the Hotmail Deleted Items folder. 
+				From there it can be retrieved if you change your mind just by dragging it back to the Inbox or other folder. Also the Deleted Items folder is deleted automatically after some time interval.</p>
+				<p><cite>A Simple Answer:</cite>
+				The simplest answer to the question posed at the beginning is simple indeed: check with your ISP. Check your ISP's Web site for "mail setup" or "server names" or even "IP addresses" and you will likely find what you need. 
+				If you are unable to find the information on their Web site, you could call your ISP's helpdesk. Only your ISP can tell you for sure the names of their servers and what authentication methods you must use to configure your mail servers in Outlook Express correctly. 
+				You can also post a message to the Outlook Express forum, but understand that only those who use the same ISP are likely to know the server names and methods.</p>
+				<p>Once you are armed with the server name, your server logon name and password, and the type of server, you are ready to finish the Add Account wizard with which we began. 
+				If you are setting up a Hotmail account, type your Hotmail address when the wizard asks for your e-mail address. 
+				Outlook Express will recognize it as Hotmail and set up the server automatically for you.
+				If you have already configured your e-mail account and wish to change the server information, you can do so with just a few mouse clicks. <br />
+				1.	On the Outlook Express Tools menu, click Accounts. <br />
+				2.	Click the Mail tab, and then double-click your e-mail account. <br />
+				3.	Click the Servers tab. <br /></p>
+			</section>
+		</article>
+
+	</body>
+
+
+
+</html>
